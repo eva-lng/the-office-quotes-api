@@ -51,7 +51,7 @@
     }
 
     .quote-field {
-        @apply text-center text-black bg-stone-400 shadow-md shadow-black rounded-md;
+        @apply text-center text-black bg-stone-400 shadow-md shadow-black;
     }
 
     .quote-text {
