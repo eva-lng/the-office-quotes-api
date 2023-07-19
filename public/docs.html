@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+        <title>The Office Quotes API</title>
+    
+        <!-- external CSS links -->
+        <link href="css/output.css" rel="stylesheet">
+        <!-- Font Awesome -->
+        <script src="https://kit.fontawesome.com/5d7bb29ba5.js" crossorigin="anonymous"></script>
+    </head>
+<body>
+    <header class="mx-4 md:mx-9 lg:mx-12 xl:mx-24 2xl:mx-40">
+        <nav class="flex justify-between py-8">
+            <h3 class="logo text-xl sm:text-2xl lg:text-3xl text-red-500"><a href="/">the office</a></h3>
+            <ul class="flex gap-4 sm:text-lg lg:text-xl">
+                <li><a href="/" class="link">Home</a></li>
+                <li><a href="/docs" class="link">Docs</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="mx-4 md:mx-11 lg:mx-14 xl:mx-28 2xl:mx-44 mb-6">
+        <section class="my-6">
+            <h1 class="relative h1-docs font-bold">
+                <span class="absolute bottom-0 left-0 w-[100%] max-w-[456px] h-0.5 bg-red-500"></span>
+                API Documentation</h1>
+            <p class="p-docs">Welcome to the Office Quotes API! This API provides access to a collection of quotes from the popular TV show "The Office." You can retrieve random quotes or quotes from specific characters. Authentication is not required to access the API.</p>
+        </section>
+        <section>
+            <h2 class="subhead-docs">How to use the API</h2>
+            <p class="p-docs my-4 sm:my-6 lg:my-8">To fetch a quote, simply make a GET request to the respective endpoint. Response is returned as a JSON object.</p>
+            <h3 class="font-bold text-xl sm:text-2xl lg:text-3xl my-2 lg:my-4">Example</h3>
+            <span class="p-docs">Request:</span>
+            <div class="my-1 lg:my-2">
+                <code class="code-field">GET /api/random</code>
+            </div>
+            <span class="p-docs">Response:</span>
+            <div class="code-field my-1 lg:my-2">
+                <code class="whitespace-pre-line">{
+                        "character": "Michael Scott",
+                        "episodeName": "Diversity Day",
+                        "episodeNumber": 2,
+                        "id": 5,
+                        "season": 1,
+                        "text": "Abraham Lincoln once said that, 'If you're a racist, I will attack you with the North.' And those are the principles that I carry with me in the workplace."
+                    }
+                </code>
+            </div>    
+        </section>
+        <section>
+            <h3 class="subhead-docs">Endpoints</h3>
+            <div class="pb-3 sm:pb-4 lg:pb-5">
+                <h4 class="font-bold sm:text-lg lg:text-xl leading-4">Fetch a random quote from any character</h4>
+                <div class="my-1 lg:my-2">
+                    <code class="code-field">GET /api/random</code>
+                </div>
+            </div>
+            <div class="pb-3 sm:pb-4 lg:pb-5">
+                <h4 class="font-bold sm:text-lg lg:text-xl leading-4">Fetch a random quote from a specific character</h4>
+                <div class="my-1 lg:my-2">
+                    <code class="code-field">GET /api/random/{char}</code>
+                    <span class="p-docs">replace {char} with character's first name</span>
+                </div>
+            </div>
+            <div class="pb-3 sm:pb-4 lg:pb-5">
+                <h4 class="font-bold sm:text-lg lg:text-xl leading-4">Fetch all quotes from a specific character</h4>
+                <div class="my-1 lg:my-2">
+                    <code class="code-field">GET /api/all/{char}</code>
+                    <span class="p-docs">replace {char} with character's first name</span>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="mt-auto mb-6 flex flex-col items-center">
+        <span class="w-[80%] max-w-[456px] h-0.5 bg-red-500"></span>
+        <div class="mt-2 text-xs sm:text-sm">
+            <a href="https://github.com/eva-lng/" class="link"><i class="fa-brands fa-github"></i></a>
+                &nbsp;
+            <span>Eva Langerova</span>
+        </div>
+    </footer>
+</body>
+</html>

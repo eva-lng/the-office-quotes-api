@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>The Office Quotes API</title>
+
+    <!-- external CSS links -->
+    <link href="css/output.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/5d7bb29ba5.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="mx-4 md:mx-9 lg:mx-12 xl:mx-24 2xl:mx-40">
+        <nav class="flex justify-between py-8">
+            <h3 class="logo text-xl sm:text-2xl lg:text-3xl text-red-500"><a href="/">the office</a></h3>
+            <ul class="flex gap-4 sm:text-lg lg:text-xl">
+                <li><a href="/" class="link">Home</a></li>
+                <li><a href="/docs" class="link">Docs</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="mx-4 md:mx-11 lg:mx-14 xl:mx-28 2xl:mx-44 mb-6">
+        <section class="text-center">
+            <h1 class="h1-index">
+                <span class="absolute bottom-0 left-1/4 w-1/2 h-0.5 bg-red-500"></span>
+                    The Office Quotes API
+            </h1>
+            <p class="p-index">Welcome to our Office Quotes API! Are you in search of an Office quote to lighten up your day, navigate through an awkward work situation or a take a quick break from your responsibilities? Look no further - we got you covered! This API serves random quotes from the popular TV show The Office.</p>
+            <p class="p-index">To learn more about the API and explore its features, read the <a href="/docs" class="link">API documentation</a>. You can also try out the API live <a href="#quote" class="link">below</a>.</p>
+        </section>
+        <section class="quote-field mx-auto mt-12 lg:mt-16 py-4 px-8 w-[90%] max-w-[520px] lg:max-wd-lg">
+            <blockquote class="quote-text mb-3">
+                <p id="quote"></p>
+            </blockquote>
+            <figcaption class="quote-text">
+                <span id="char" class="font-bold"></span>
+                <cite id="episode" class="italic"></cite>
+            </figcaption>
+            <button id="genQuote" class="btn">Random Quote</button>
+        </section>
+    </main>
+    <footer class="mt-auto mb-6 flex flex-col items-center">
+        <span class="w-[80%] max-w-[456px] h-0.5 bg-red-500"></span>
+        <div class="mt-2 text-xs sm:text-sm">
+            <a href="https://github.com/eva-lng/" class="link"><i class="fa-brands fa-github"></i></a>
+                &nbsp;
+            <span>Eva Langerova</span>
+        </div>
+    </footer>
+
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>

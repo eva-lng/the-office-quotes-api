@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@400;700&family=Special+Elite&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    html {
+        @apply text-white;
+        font-family: 'Jura', 'sans-serif';
+    }
+
+    body {
+        @apply min-h-screen container mx-auto flex flex-col bg-office bg-no-repeat bg-cover bg-center bg-fixed backdrop-blur-[2px];
+    }
+
+    .logo {
+        font-family: 'Special Elite', sans-serif;
+    }
+
+    .h1-index {
+        @apply text-3xl sm:text-[2rem] lg:text-4xl my-6 lg:my-8 mx-auto px-4 max-w-[70%] leading-[1.6em] sm:leading-[1.7em] uppercase relative;
+    }
+
+    .h1-docs {
+        @apply text-3xl sm:text-[2rem] lg:text-4xl my-6 lg:my-8 leading-[1.6em] sm:leading-[1.7em] uppercase relative;
+    }
+
+    .subhead-docs {
+        @apply font-bold text-2xl sm:text-3xl lg:text-[2rem] my-4 lg:my-8 leading-[1.6em] sm:leading-[1.7em];
+    }
+
+    .p-index {
+        @apply leading-7 lg:leading-8 my-6 sm:my-8 lg:my-12 sm:text-lg lg:text-xl;
+    }
+
+    .p-docs {
+        @apply leading-7 sm:text-lg lg:text-xl;
+    }
+
+    .link {
+        @apply text-red-200 hover:underline hover:text-red-400 transition duration-300;
+    }
+
+    .btn {
+        @apply mt-4 px-4 py-2 lg:py-1 bg-red-500 text-white rounded-lg hover:transition hover:duration-300 hover:opacity-80 lg:text-lg leading-4;
+    }
+
+    .code-field {
+        @apply px-6 py-1 text-xs lg:text-sm md:leading-5 lg:leading-6 bg-slate-800 text-gray-300 rounded-sm;
+    }
+
+    .quote-field {
+        @apply text-center text-black bg-stone-400 shadow-md shadow-black rounded-md;
+    }
+
+    .quote-text {
+        @apply leading-7 sm:text-lg lg:text-xl;
+    }
+}
