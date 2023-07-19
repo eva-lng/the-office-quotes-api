@@ -470,7 +470,7 @@ body{
   display: flex;
   min-height: 100vh;
   flex-direction: column;
-  background-image: linear-gradient(to right bottom, rgba(4, 9, 30 ,0.7), rgba(4, 9, 30 ,0.9)), url('../assets/officebg02.jpg');
+  background-image: linear-gradient(to right bottom, rgba(4, 9, 30 ,0.7), rgba(4, 9, 30 ,0.9)), url('../assets/officebg.jpg');
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
