@@ -496,6 +496,78 @@ const quotes = [
         "text": "Dwight mercy killed Angela's cat. It's very complicated. It's caused a lot of unpleasantness between Dwight and Angela. Who are both already prone to unpleasantness."
     },
     {
+        "id": 16,
+        "character": "Pam Beesly",
+        "season": 5,
+        "episodeNumber": 18,
+        "episodeName": "Blood Drive",
+        "text": "They have new phone systems now that can ring directly to a salesman, or someone presses 'star' and they go to accounting. Basically 95% of my job. But I'd like to see someone put out candy for everyone… Vending machine."
+    },
+    {
+        "id": 16,
+        "character": "Pam Beesly",
+        "season": 5,
+        "episodeNumber": 15,
+        "episodeName": "Stress Relief",
+        "text": "Once every hour someone is involved in an internet scam. That man is Michael Scott."
+    },
+    {
+        "id": 16,
+        "character": "Pam Beesly",
+        "season": 2,
+        "episodeNumber": 1,
+        "episodeName": "The Dundies",
+        "text": "You know what they say about a car wreck, where it's so awful you can't look away? The Dundies are like a car wreck that you want to look away from but you have to stare at it because your boss is making you."
+    },
+    {
+        "id": 16,
+        "character": "Pam Beesly",
+        "season":4,
+        "episodeNumber": 1,
+        "episodeName": "Fun Run",
+        "text": "They say if you're nervous around someone, picture them naked. I do not recommend this strategy. Try picturing them with more clothes on... or a funny coat."
+    },
+    {
+        "id": 16,
+        "character": "Pam Beesly",
+        "season": 9,
+        "episodeNumber": 2,
+        "episodeName": "Roy's Wedding",
+        "text": "The one thing the chore wheel doesn't have on it, is chores."
+    },
+    {
+        "id": 16,
+        "character": "Pam Beesly",
+        "season": 2,
+        "episodeNumber": 8,
+        "episodeName": "Performance Review",
+        "text": "Last year, my performance review started with Michael asking me what my hopes and dreams were, and it ended with him telling me he could bench press 190 pounds."
+    },
+    {
+        "id": 16,
+        "character": "Pam Beesly",
+        "season": 2,
+        "episodeNumber": 22,
+        "episodeName": "Casino Night",
+        "text": "Sometimes I don't put Michael through until he's already said something. I look at it as a practice run for him. He usually does better on the second attempt."
+    },
+    {
+        "id": 16,
+        "character": "Pam Beesly",
+        "season": 4,
+        "episodeNumber": 11,
+        "episodeName": "Survivor Man",
+        "text": "Michael wasn't invited. Apparently, they already knew everything they needed to know about him."
+    },
+    {
+        "id": 16,
+        "character": "Pam Beesly",
+        "season": 2,
+        "episodeNumber": 1,
+        "episodeName": "The Dundies",
+        "text": "I feel God in this Chili's tonight."
+    },
+    {
         "id": 17,
         "character": "Jim Halpert",
         "season": 4,
