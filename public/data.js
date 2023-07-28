@@ -453,7 +453,7 @@ const quotes = [
         "season": 2,
         "episodeNumber": 22,
         "episodeName": "Casino Night",
-        "text": "We are giving money that has been gambled. Why don’t we just deal drugs or prostitute ourselves, and donate that money to charity?"
+        "text": "We are giving money that has been gambled. Why don't we just deal drugs or prostitute ourselves, and donate that money to charity?"
     },
     {
         "id": 60,
