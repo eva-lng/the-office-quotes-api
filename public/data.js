@@ -405,7 +405,7 @@ const quotes = [
         "season": 2,
         "episodeNumber": 8,
         "episodeName": "Performance Review",
-        "text": "“I actually look forward to performance reviews. I did the youth beauty pageant circuit. And I enjoyed that quite a bit. I really enjoy being judged. I believe I hold up very well to even severe scrutiny."
+        "text": "I actually look forward to performance reviews. I did the youth beauty pageant circuit. And I enjoyed that quite a bit. I really enjoy being judged. I believe I hold up very well to even severe scrutiny."
     },
     {
         "id": 54,
