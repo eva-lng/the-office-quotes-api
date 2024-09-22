@@ -8,7 +8,8 @@ The Office Quotes API is an API that generates and serves random quotes from the
 ## Getting started
 1. Install `node` and `cd` to the project folder
 2. `npm install`
-3. Navigate to browser and go to `http://localhost:8000` to view the homepage
+3. `node server.js`
+4. Navigate to browser and go to `http://localhost:8000` to view the homepage
 
 ## Usage
 Visit the homepage to see the quote generator in action. To learn how to use the API, you can also visit the API documentation at `/docs`.
