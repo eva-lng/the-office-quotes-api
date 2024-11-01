@@ -1,6 +1,8 @@
 # the office quotes API
 The Office Quotes API is an API that generates and serves random quotes from the popular TV show The Office. It allows users to fetch random quotes or quotes from specific characters. A preview is available on the quote generator page.
 
+![Screenshot 2024-10-31 at 22 04 58](https://github.com/user-attachments/assets/b981e1f0-b27b-4877-9883-6cb5fa1d4cf7)
+
 **Tech used:** HTML, Tailwind CSS, Javascript, Node.js, Express.js
 
 **Link to project:** https://officequotesapi.cyclic.app
